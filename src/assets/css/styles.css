@@ -1,0 +1,25 @@
+
+html body{
+    background-image: url('../images/fondo.jpg');
+}
+
+.imagen {
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+
+.container {
+    margin: 0;
+    margin-top: 20%;
+    padding: 0%;
+}
+
+.boton {
+    margin-bottom: 10px;
+}
+
+.formulario {
+    width: 80%;
+}
