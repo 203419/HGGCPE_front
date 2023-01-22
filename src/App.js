@@ -3,6 +3,7 @@ import Register2 from './components/Register2'
 import Login from './components/Login';
 import Evidencias from './components/Evidencias';
 import Home from './components/Home';
+import Requisitos from './components/Requisitos';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App() {
@@ -11,6 +12,8 @@ function App() {
     <Router>
       <div>
         <Routes>
+          <Route path="/requisitos" element={<Requisitos/>}>
+          </Route>
 
           <Route path="/evidencias" element={<Evidencias/>}>
           </Route>

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 
 function Evidencias(){
     // Imprimir en pantalla un texto que diga "Evidencias"
