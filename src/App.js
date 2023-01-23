@@ -5,6 +5,7 @@ import Evidencias from './components/Evidencias';
 import Home from './components/Home';
 import Requisitos from './components/Requisitos';
 import AnalisisDiseno from './components/AnalisisDiseno';
+import PlanPruebas from './components/PlanPruebas';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App() {
@@ -13,6 +14,9 @@ function App() {
     <Router>
       <div>
         <Routes>
+        
+          <Route path="/planPruebas" element={<PlanPruebas/>}>
+          </Route>
           <Route path="/analisisDiseno" element={<AnalisisDiseno/>}>
           </Route>
 

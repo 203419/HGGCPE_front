@@ -43,7 +43,7 @@ function AnalisisDiseno() {
           </div>
 
           <div className="mb-4">
-            <label className="form-label">Identificaciones y métricas</label>
+            <label className="form-label">Indicaciones y métricas</label>
             <input
               type="text"
               size="50"
