@@ -160,29 +160,22 @@ function AnalisisDiseno() {
           ></textarea>
 
           <label className="form-label">Arquitectura lógica del sistema</label>
-          <textarea
-            size="100"
-            id="story"
-            name="story"
-            rows="5"
-            cols="33"
-            placeholder="Esta selección debe contener una representación gráfica de la
-            arquitectura lógica que se propone para el sistema a desarrollar.
-            Se recomienda usar un diagrama de componentes UML, un
-            diagrama de paquetes UML o alguna notación ad-hoc si se
-            considera oportuno"
-          ></textarea>
+          <button className="btn boton btn-primary boton col-sm-4">
+            AGREGAR
+          </button>
+          <button className="btn boton btn-primary boton col-sm-4">
+            AGREGAR
+          </button>
+          <button className="btn boton btn-warning  boton col-sm-4">
+            ENVIAR
+          </button>
+
+          
 
           <label className="form-label">Modelo de componente del sistema</label>
-          <textarea
-            size="100"
-            id="story"
-            name="story"
-            rows="5"
-            cols="33"
-            placeholder="Esta selección debe contener los diagramas de componentes
-            correspondientes al sistema."
-          ></textarea>
+          <button className="btn boton btn-primary boton col-sm-6">
+            AGREGAR
+          </button>
 
           <label className="form-label">
             Descripción de los componentes del sistema
