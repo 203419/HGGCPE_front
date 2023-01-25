@@ -1,6 +1,5 @@
 
 function AnalisisDiseno() {
-  // Imprimir en pantalla un texto que diga "Evidencias"
   return (
     <div className="modal-dialog text-center ">
       <div className="col-sm-100 container">

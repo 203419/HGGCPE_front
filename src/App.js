@@ -5,6 +5,7 @@ import Evidencias from './components/Evidencias';
 import Home from './components/Home';
 import Requisitos from './components/Requisitos';
 import AnalisisDiseno from './components/AnalisisDiseno';
+import Test from './components/Test';
 import PlanPruebas from './components/PlanPruebas';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
@@ -30,6 +31,9 @@ function App() {
           </Route>
 
           <Route path="/register" element={<Register2/>}>
+          </Route>
+
+          <Route path="/test" element={<Test/>}>
           </Route>
 
           <Route  path="/" element={<Home/>}>
